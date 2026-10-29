@@ -1,8 +1,8 @@
 // Soft volumetric-looking clouds: one instanced draw of world-up billboards, each sampling a GPU-baked
 // cumulus atlas (density + self-shadowing from above), lit in three tones, hazed by the shared sky and
 // depth-faded against the islands (soft particles), then depth-sorted on the CPU every frame.
-import { THREE } from '../../src/core/engine.js';
-import { bakeTexture } from '../../src/core/textures.js';
+import { THREE } from './core/engine.js';
+import { bakeTexture } from './core/textures.js';
 import { sky, SKY_GLSL } from './sky.js';
 
 function bakeAtlas(renderer) {

@@ -1,8 +1,8 @@
-# 13 · Atlas of Drifting Isles — "Travel between floating islands"
+# Atlas of Drifting Isles — "Travel between floating islands"
 Brand: **Atlas of Drifting Isles** — a whimsical sky-travel agency (airship tours) for a fantasy archipelago.
 
 ## Signature interaction
-Four floating islands (`models/atlas/{lighthouse,falls,pagoda,windmill}.glb`, stylised hand-painted) drift in an endless sky
+Four floating islands (`models/{lighthouse,falls,pagoda,windmill}.glb`, stylised hand-painted) drift in an endless sky
 of soft layered clouds. **Click an island (or a map dot) and the camera flies there** along a curved path through the clouds
 (banking, FOV breathing), then orbits it gently while its destination panel slides in. Scroll also advances the tour island to
 island. Islands bob; waterfalls pour off edges (particle streams + mist); birds flock between islands (boids, instanced);

@@ -1,7 +1,7 @@
 {
   "name": "atlas",
   "private": true,
-  "description": "Standalone Atlas of Drifting Isles world from Dioramas.",
+  "description": "A travel fantasy concept in which four islands drift above a sea of clouds.",
   "license": "MIT",
   "version": "0.1.0",
   "type": "module",

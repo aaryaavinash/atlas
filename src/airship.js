@@ -1,6 +1,6 @@
 // The Zephyrine: a procedural storybook airship — striped lathe envelope, tail fins, a timber gondola with
 // lit windows, rigging, twin propellers and a pennant. Forward is +Z.
-import { THREE } from '../../src/core/engine.js';
+import { THREE } from './core/engine.js';
 import { RoundedBoxGeometry } from 'three/examples/jsm/geometries/RoundedBoxGeometry.js';
 import { patchAtmosphere } from './sky.js';
 

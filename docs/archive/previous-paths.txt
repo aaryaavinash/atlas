@@ -1,0 +1,19 @@
+// ORIGINAL (preserved, not deleted — disabled by comment): previous nested paths
+// import { THREE } from '../../src/core/engine.js';
+// import { Engine, THREE, normalize, prepModel, damp, clamp, smooth, lerp, studioEnvironment } from '../../src/core/engine.js';
+// import { Assets, firstMesh } from '../../src/core/assets.js';
+// import { Pointer } from '../../src/core/input.js';
+// import { smoothScroll, gsap } from '../../src/core/scroll.js';
+// // ORIGINAL (preserved, not deleted — disabled by comment): import { preloader, cursor, magnetic, worldNav } from '../../src/core/ui.js';
+// import { preloader, cursor, magnetic } from '../../src/core/ui.js';
+// const loads = ISLES.map(I => assets.gltf(`models/atlas/${I.key}.glb`).then(g => {
+// // ORIGINAL (preserved, not deleted — disabled by comment): worldNav('atlas', { theme: 'light', corner: 'bl' });
+// import { THREE } from '../../src/core/engine.js';
+// import { THREE } from '../../src/core/engine.js';
+// import { THREE } from '../../src/core/engine.js';
+// import { bakeTexture } from '../../src/core/textures.js';
+// import { THREE } from '../../src/core/engine.js';
+//   <link rel="stylesheet" href="./examples/atlas/style.css">
+//   <script type="module" src="./examples/atlas/main.js"></script>
+// // ORIGINAL (preserved, not deleted — disabled by comment): import { preloader, cursor, magnetic, worldNav } from './core/ui.js';
+// // ORIGINAL (preserved, not deleted — disabled by comment): worldNav('atlas', { theme: 'light', corner: 'bl' });

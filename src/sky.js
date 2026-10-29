@@ -1,6 +1,6 @@
 // Sky dome, the shared sky-colour function and the aerial-perspective patch used by every material in the world,
 // so islands, clouds and birds all melt into exactly the colour of the sky behind them.
-import { THREE } from '../../src/core/engine.js';
+import { THREE } from './core/engine.js';
 
 export const sky = {
   uZenith: { value: new THREE.Color('#3f8fe0') },

@@ -1,6 +1,6 @@
 // A flock of swifts: CPU boids steering toward a roost that migrates from island to island,
 // drawn as one instanced mesh whose wings flap in the vertex shader.
-import { THREE } from '../../src/core/engine.js';
+import { THREE } from './core/engine.js';
 import { patchAtmosphere } from './sky.js';
 
 const ZERO = new THREE.Vector3(), ZAX = new THREE.Vector3(0, 0, 1);

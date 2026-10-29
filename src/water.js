@@ -1,6 +1,6 @@
 // Particle life on the islands: waterfall streams that keep falling where the sculpted sheet ends,
 // drifting blossom from Hanakumo, and the lighthouse lamp.
-import { THREE } from '../../src/core/engine.js';
+import { THREE } from './core/engine.js';
 import { sky, SKY_GLSL } from './sky.js';
 
 export const pointU = { uResY: { value: 900 }, uDpr: { value: 1 } };
