@@ -1,8 +1,10 @@
+import './tailwind.css';
 import { Engine, THREE, normalize, prepModel, damp, clamp, smooth, lerp, studioEnvironment } from '../../src/core/engine.js';
 import { Assets, firstMesh } from '../../src/core/assets.js';
 import { Pointer } from '../../src/core/input.js';
 import { smoothScroll, gsap } from '../../src/core/scroll.js';
-import { preloader, cursor, magnetic, worldNav } from '../../src/core/ui.js';
+// ORIGINAL (preserved, not deleted — disabled by comment): import { preloader, cursor, magnetic, worldNav } from '../../src/core/ui.js';
+import { preloader, cursor, magnetic } from '../../src/core/ui.js';
 import { sky, skyDome, patchAtmosphere } from './sky.js';
 import { Clouds, rng } from './clouds.js';
 import { buildAirship } from './airship.js';
@@ -724,7 +726,7 @@ engine.onTick((dt, t) => {
 });
 
 // ─── Boot ─────────────────────────────────────────────────────────────────────
-worldNav('atlas', { theme: 'light', corner: 'bl' });
+// ORIGINAL (preserved, not deleted — disabled by comment): worldNav('atlas', { theme: 'light', corner: 'bl' });
 magnetic();
 layoutChart();
 window.__atlas = { fly: i => goTo(i), flyOnly: i => { lock = i; fly(i); }, engine, cam, ISLES, debug: () => ({ t: +engine.time.toFixed(2), fl: { on: fl.on, u: +fl.u.toFixed(2), dur: +fl.dur.toFixed(2), st: fl.st }, station, fps: window.__fps, lock, cam: cam.pos.toArray().map(v => +v.toFixed(1)) }) };
